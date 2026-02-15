@@ -31,3 +31,4 @@ EXPOSE 4000
 # Update the content on every run of the container
 #ENTRYPOINT LANG=en_US.UTF-8 bundle exec bash -i "$@"
 CMD jekyll serve --force_polling -H 0.0.0.0 -l -I -w
+ 
